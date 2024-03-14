@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(grey,white);
+}
+nav{
+    height:80px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    
+}
+li{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 25px;
+    
+    display: inline-block;
+    
+    
+}
+ul{
+    
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    
+}
+li a{
+    text-decoration: none;
+    
+    
+}
+div .logo h1
+{
+    color: white;
+    font-size: 30px; 
+    padding-left: 25px;
+    cursor: pointer;
+    background-color: black;
+    
+    
+}
+li a:hover{
+    color:blue ;
+
+    
+}
+.email-link {
+  color: purple;
+}
+.email-link:hover{
+  color: blue;
+}
+
+
+
+
+h1{
+    
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    
+    
+  }
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom: 20px ;
+    width: 60%;
+    cursor: pointer;
+    
+    
+  }
+
+.center-h {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 30px 15px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+    border: black;
+  
+  }
+  .button:hover{
+      background-color: tan;
+      color:black;
+      border:2px solid black;
+      border-color: black;
+      
+  }
+  
+  .button1 {background-color: black;} 
+  .button2 {background-color: black;} 
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  .column{
+    margin-left: 40px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
